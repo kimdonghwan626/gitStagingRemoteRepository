@@ -16,4 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @BxmCategory(logicalName="컨트롤러 리소스", description="")
 public class ContorllerResource {
 	private Logger logger= LoggerFactory.getLogger(getClass());
+	
+	private int i;
 }
